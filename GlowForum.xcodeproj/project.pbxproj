@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF63972A1B8E28990075D87C /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF6397291B8E28990075D87C /* readme.txt */; };
+		FF63972D1B8E3ACB0075D87C /* Topic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF63972C1B8E3ACB0075D87C /* Topic1.jpg */; };
+		FF63972F1B8E3AD80075D87C /* Topic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF63972E1B8E3AD80075D87C /* Topic2.jpg */; };
+		FF6397311B8E3AEA0075D87C /* Forum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF6397301B8E3AEA0075D87C /* Forum.jpg */; };
 		FF7FB0E51B8A2E3E0086A506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FB0E41B8A2E3E0086A506 /* main.m */; };
 		FF7FB0E81B8A2E3E0086A506 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FB0E71B8A2E3E0086A506 /* AppDelegate.m */; };
-		FF7FB0EB1B8A2E3E0086A506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FB0EA1B8A2E3E0086A506 /* ViewController.m */; };
 		FF7FB0EE1B8A2E3E0086A506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7FB0EC1B8A2E3E0086A506 /* Main.storyboard */; };
 		FF7FB0F01B8A2E3E0086A506 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7FB0EF1B8A2E3E0086A506 /* Images.xcassets */; };
 		FF7FB0F31B8A2E3E0086A506 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7FB0F11B8A2E3E0086A506 /* LaunchScreen.xib */; };
 		FF7FB0FF1B8A2E3E0086A506 /* GlowForumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FB0FE1B8A2E3E0086A506 /* GlowForumTests.m */; };
+		FF7FB1091B8ACA340086A506 /* glowdata.json in Resources */ = {isa = PBXBuildFile; fileRef = FF7FB1081B8ACA340086A506 /* glowdata.json */; };
+		FF7FB10E1B8AD03F0086A506 /* GlowForumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FB10D1B8AD03F0086A506 /* GlowForumTableViewCell.m */; };
+		FF7FB1171B8B3D590086A506 /* GlowForumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7FB1161B8B3D590086A506 /* GlowForumTableViewController.m */; };
+		FFAF8D681B8C8A7A00E07830 /* GlowTopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D671B8C8A7A00E07830 /* GlowTopicTableViewController.m */; };
+		FFAF8D6E1B8C8CBA00E07830 /* GlowResizingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D6D1B8C8CBA00E07830 /* GlowResizingTableViewCell.m */; };
+		FFAF8D741B8C8D4700E07830 /* GlowTopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D731B8C8D4700E07830 /* GlowTopicTableViewCell.m */; };
+		FFAF8D7C1B8CC3DE00E07830 /* GlowCommentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D7B1B8CC3DE00E07830 /* GlowCommentsTableViewCell.m */; };
+		FFAF8D801B8CD64700E07830 /* NSString+TimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D7F1B8CD64700E07830 /* NSString+TimeInterval.m */; };
+		FFAF8D831B8D914600E07830 /* UIImage+ScaleToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D821B8D914600E07830 /* UIImage+ScaleToSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF6397291B8E28990075D87C /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		FF63972C1B8E3ACB0075D87C /* Topic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Topic1.jpg; sourceTree = "<group>"; };
+		FF63972E1B8E3AD80075D87C /* Topic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Topic2.jpg; sourceTree = "<group>"; };
+		FF6397301B8E3AEA0075D87C /* Forum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forum.jpg; sourceTree = "<group>"; };
 		FF7FB0DF1B8A2E3E0086A506 /* GlowForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7FB0E31B8A2E3E0086A506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7FB0E41B8A2E3E0086A506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF7FB0E61B8A2E3E0086A506 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF7FB0E71B8A2E3E0086A506 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF7FB0E91B8A2E3E0086A506 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF7FB0EA1B8A2E3E0086A506 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF7FB0ED1B8A2E3E0086A506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF7FB0EF1B8A2E3E0086A506 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF7FB0F21B8A2E3E0086A506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF7FB0F81B8A2E3E0086A506 /* GlowForumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowForumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7FB0FD1B8A2E3E0086A506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7FB0FE1B8A2E3E0086A506 /* GlowForumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlowForumTests.m; sourceTree = "<group>"; };
+		FF7FB1081B8ACA340086A506 /* glowdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glowdata.json; sourceTree = "<group>"; };
+		FF7FB10C1B8AD03F0086A506 /* GlowForumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowForumTableViewCell.h; sourceTree = "<group>"; };
+		FF7FB10D1B8AD03F0086A506 /* GlowForumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowForumTableViewCell.m; sourceTree = "<group>"; };
+		FF7FB1151B8B3D590086A506 /* GlowForumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowForumTableViewController.h; sourceTree = "<group>"; };
+		FF7FB1161B8B3D590086A506 /* GlowForumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowForumTableViewController.m; sourceTree = "<group>"; };
+		FFAF8D661B8C8A7A00E07830 /* GlowTopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowTopicTableViewController.h; sourceTree = "<group>"; };
+		FFAF8D671B8C8A7A00E07830 /* GlowTopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowTopicTableViewController.m; sourceTree = "<group>"; };
+		FFAF8D6C1B8C8CBA00E07830 /* GlowResizingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowResizingTableViewCell.h; sourceTree = "<group>"; };
+		FFAF8D6D1B8C8CBA00E07830 /* GlowResizingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowResizingTableViewCell.m; sourceTree = "<group>"; };
+		FFAF8D721B8C8D4700E07830 /* GlowTopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowTopicTableViewCell.h; sourceTree = "<group>"; };
+		FFAF8D731B8C8D4700E07830 /* GlowTopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowTopicTableViewCell.m; sourceTree = "<group>"; };
+		FFAF8D751B8C8F4C00E07830 /* GlowResizingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowResizingProtocol.h; sourceTree = "<group>"; };
+		FFAF8D7A1B8CC3DE00E07830 /* GlowCommentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowCommentsTableViewCell.h; sourceTree = "<group>"; };
+		FFAF8D7B1B8CC3DE00E07830 /* GlowCommentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowCommentsTableViewCell.m; sourceTree = "<group>"; };
+		FFAF8D7E1B8CD64700E07830 /* NSString+TimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeInterval.h"; sourceTree = "<group>"; };
+		FFAF8D7F1B8CD64700E07830 /* NSString+TimeInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeInterval.m"; sourceTree = "<group>"; };
+		FFAF8D811B8D914600E07830 /* UIImage+ScaleToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleToSize.h"; sourceTree = "<group>"; };
+		FFAF8D821B8D914600E07830 /* UIImage+ScaleToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleToSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +92,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF6397261B8E274A0075D87C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF8D7E1B8CD64700E07830 /* NSString+TimeInterval.h */,
+				FFAF8D7F1B8CD64700E07830 /* NSString+TimeInterval.m */,
+				FFAF8D811B8D914600E07830 /* UIImage+ScaleToSize.h */,
+				FFAF8D821B8D914600E07830 /* UIImage+ScaleToSize.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		FF6397271B8E278E0075D87C /* ForumView */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FB1151B8B3D590086A506 /* GlowForumTableViewController.h */,
+				FF7FB1161B8B3D590086A506 /* GlowForumTableViewController.m */,
+				FF7FB10C1B8AD03F0086A506 /* GlowForumTableViewCell.h */,
+				FF7FB10D1B8AD03F0086A506 /* GlowForumTableViewCell.m */,
+			);
+			name = ForumView;
+			sourceTree = "<group>";
+		};
+		FF6397281B8E27E40075D87C /* TopicView */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF8D661B8C8A7A00E07830 /* GlowTopicTableViewController.h */,
+				FFAF8D671B8C8A7A00E07830 /* GlowTopicTableViewController.m */,
+				FFAF8D6C1B8C8CBA00E07830 /* GlowResizingTableViewCell.h */,
+				FFAF8D6D1B8C8CBA00E07830 /* GlowResizingTableViewCell.m */,
+				FFAF8D721B8C8D4700E07830 /* GlowTopicTableViewCell.h */,
+				FFAF8D731B8C8D4700E07830 /* GlowTopicTableViewCell.m */,
+				FFAF8D7A1B8CC3DE00E07830 /* GlowCommentsTableViewCell.h */,
+				FFAF8D7B1B8CC3DE00E07830 /* GlowCommentsTableViewCell.m */,
+			);
+			name = TopicView;
+			sourceTree = "<group>";
+		};
+		FF63972B1B8E3AA90075D87C /* DemoPictures */ = {
+			isa = PBXGroup;
+			children = (
+				FF6397301B8E3AEA0075D87C /* Forum.jpg */,
+				FF63972C1B8E3ACB0075D87C /* Topic1.jpg */,
+				FF63972E1B8E3AD80075D87C /* Topic2.jpg */,
+			);
+			name = DemoPictures;
+			sourceTree = "<group>";
+		};
 		FF7FB0D61B8A2E3E0086A506 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +160,12 @@
 		FF7FB0E11B8A2E3E0086A506 /* GlowForum */ = {
 			isa = PBXGroup;
 			children = (
-				FF7FB0E61B8A2E3E0086A506 /* AppDelegate.h */,
-				FF7FB0E71B8A2E3E0086A506 /* AppDelegate.m */,
-				FF7FB0E91B8A2E3E0086A506 /* ViewController.h */,
-				FF7FB0EA1B8A2E3E0086A506 /* ViewController.m */,
+				FF6397291B8E28990075D87C /* readme.txt */,
+				FF63972B1B8E3AA90075D87C /* DemoPictures */,
+				FF6397271B8E278E0075D87C /* ForumView */,
+				FF6397281B8E27E40075D87C /* TopicView */,
+				FF6397261B8E274A0075D87C /* Category */,
+				FFAF8D771B8C8F7100E07830 /* protocol */,
 				FF7FB0EC1B8A2E3E0086A506 /* Main.storyboard */,
 				FF7FB0EF1B8A2E3E0086A506 /* Images.xcassets */,
 				FF7FB0F11B8A2E3E0086A506 /* LaunchScreen.xib */,
@@ -96,6 +177,9 @@
 		FF7FB0E21B8A2E3E0086A506 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF7FB0E61B8A2E3E0086A506 /* AppDelegate.h */,
+				FF7FB0E71B8A2E3E0086A506 /* AppDelegate.m */,
+				FF7FB1081B8ACA340086A506 /* glowdata.json */,
 				FF7FB0E31B8A2E3E0086A506 /* Info.plist */,
 				FF7FB0E41B8A2E3E0086A506 /* main.m */,
 			);
@@ -117,6 +201,14 @@
 				FF7FB0FD1B8A2E3E0086A506 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFAF8D771B8C8F7100E07830 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF8D751B8C8F4C00E07830 /* GlowResizingProtocol.h */,
+			);
+			name = protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +291,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF63972F1B8E3AD80075D87C /* Topic2.jpg in Resources */,
+				FF63972D1B8E3ACB0075D87C /* Topic1.jpg in Resources */,
+				FF7FB1091B8ACA340086A506 /* glowdata.json in Resources */,
 				FF7FB0EE1B8A2E3E0086A506 /* Main.storyboard in Resources */,
+				FF6397311B8E3AEA0075D87C /* Forum.jpg in Resources */,
 				FF7FB0F31B8A2E3E0086A506 /* LaunchScreen.xib in Resources */,
 				FF7FB0F01B8A2E3E0086A506 /* Images.xcassets in Resources */,
+				FF63972A1B8E28990075D87C /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7FB0EB1B8A2E3E0086A506 /* ViewController.m in Sources */,
+				FFAF8D681B8C8A7A00E07830 /* GlowTopicTableViewController.m in Sources */,
+				FFAF8D6E1B8C8CBA00E07830 /* GlowResizingTableViewCell.m in Sources */,
+				FFAF8D7C1B8CC3DE00E07830 /* GlowCommentsTableViewCell.m in Sources */,
+				FF7FB1171B8B3D590086A506 /* GlowForumTableViewController.m in Sources */,
+				FF7FB10E1B8AD03F0086A506 /* GlowForumTableViewCell.m in Sources */,
 				FF7FB0E81B8A2E3E0086A506 /* AppDelegate.m in Sources */,
+				FFAF8D801B8CD64700E07830 /* NSString+TimeInterval.m in Sources */,
+				FFAF8D741B8C8D4700E07830 /* GlowTopicTableViewCell.m in Sources */,
 				FF7FB0E51B8A2E3E0086A506 /* main.m in Sources */,
+				FFAF8D831B8D914600E07830 /* UIImage+ScaleToSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +520,7 @@
 				FF7FB1041B8A2E3E0086A506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF7FB1051B8A2E3E0086A506 /* Build configuration list for PBXNativeTarget "GlowForumTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +529,7 @@
 				FF7FB1071B8A2E3E0086A506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
